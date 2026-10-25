@@ -82,12 +82,41 @@ export default function Footer() {
 
             <ul className="space-y-3 text-slate-300">
 
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Projects</li>
-              <li>Careers</li>
-              <li>Contact</li>
+                <li>
+                    <Link href="/" className="transition hover:text-blue-400">
+                    Home
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/about" className="transition hover:text-blue-400">
+                    About Us
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services" className="transition hover:text-blue-400">
+                    Services
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/projects" className="transition hover:text-blue-400">
+                    Projects
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/careers" className="transition hover:text-blue-400">
+                    Careers
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/contact" className="transition hover:text-blue-400">
+                    Contact
+                    </Link>
+                </li>
 
             </ul>
 
@@ -103,12 +132,41 @@ export default function Footer() {
 
             <ul className="space-y-3 text-slate-300">
 
-              <li>Commercial Surfacing</li>
-              <li>Road Construction</li>
-              <li>Car Parks</li>
-              <li>Civil Engineering</li>
-              <li>Driveways</li>
-              <li>Site Preparation</li>
+                <li>
+                    <Link href="/services#commercial-surfacing" className="transition hover:text-blue-400">
+                    Commercial Surfacing
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services#road-construction" className="transition hover:text-blue-400">
+                    Road Construction
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services#car-parks" className="transition hover:text-blue-400">
+                    Car Parks
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services#civil-engineering" className="transition hover:text-blue-400">
+                    Civil Engineering
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services#driveways" className="transition hover:text-blue-400">
+                    Driveways
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/services#site-preparation" className="transition hover:text-blue-400">
+                    Site Preparation
+                    </Link>
+                </li>
 
             </ul>
 

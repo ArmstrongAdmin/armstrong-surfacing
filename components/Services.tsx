@@ -1,26 +1,32 @@
 import Image from "next/image";
 const services = [
   {
+    id: "commercial-surfacing",
     title: "Commercial Surfacing",
     image: "/images/service-commercial.jpg",
   },
   {
+    id: "road-construction",
     title: "Road Construction",
     image: "/images/service-road.jpg",
   },
   {
+    id: "car-parks",
     title: "Car Parks",
     image: "/images/service-carpark.jpg",
   },
   {
+    id: "civil-engineering",
     title: "Civil Engineering",
     image: "/images/service-civil.jpg",
   },
   {
+    id: "driveways",
     title: "Driveways",
     image: "/images/service-driveway.jpg",
   },
   {
+    id: "site-preparation",
     title: "Site Preparation",
     image: "/images/service-site.jpg",
   },
@@ -55,6 +61,7 @@ export default function Services() {
 
           {services.map((service) => (
             <div
+              id={service.title.toLowerCase().replace(/\s+/g, "-")}
               key={service.title}
               className="group overflow-hidden rounded-xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >

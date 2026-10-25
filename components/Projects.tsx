@@ -1,29 +1,6 @@
 import Image from "next/image";
 import { projects } from "@/data/projects";
 
-/* const projects = [
-  {
-    title: "Retail Development",
-    location: "Lisburn",
-    image: "/images/project-1.jpg",
-  },
-  {
-    title: "School Car Park",
-    location: "Antrim",
-    image: "/images/project-2.jpg",
-  },
-  {
-    title: "Industrial Estate Infrastructure",
-    location: "Belfast",
-    image: "/images/project-3.jpg",
-  },
-  {
-    title: "Road Improvement Works",
-    location: "County Down",
-    image: "/images/project-4.jpg",
-  },
-]; */
-
 export default function Projects() {
   return (
     <section className="bg-slate-50 py-32">
