@@ -20,14 +20,16 @@ export default function AboutPage() {
       {/* Hero */}
 
       <section className="relative h-[500px]">
-
-        <Image
-          src="/images/about-hero.jpg"
-          alt="Armstrong Surfacing"
-          fill
-          priority
-          className="object-cover"
-        />
+        <div className="relative">
+          <Image
+            src="/images/about-hero.jpg"
+            alt="Armstrong Surfacing"
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
+       
 
         <div className="absolute inset-0 bg-[#071B39]/70" />
 
@@ -89,12 +91,14 @@ export default function AboutPage() {
 
           <div className="relative min-h-[500px] overflow-hidden rounded-2xl">
 
-            <Image
-              src="/images/about-story.jpg"
-              alt="Armstrong Surfacing Team"
-              fill
-              className="object-cover"
-            />
+            <div className="relative">
+              <Image
+                src="/images/about-story.jpg"
+                alt="Armstrong Surfacing Team"
+                fill
+                className="object-cover"
+              />
+            </div>
 
           </div>
 

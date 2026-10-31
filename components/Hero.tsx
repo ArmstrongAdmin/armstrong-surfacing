@@ -6,13 +6,17 @@ export default function Hero() {
 
       {/* Background */}
 
-      <Image
-        src="/images/hero-road.png"
-        alt="Road surfacing plant"
-        fill
-        sizes="(max-width: 768px) 100vw, 33vw"
-        className="object-cover"
-        />
+       <div className="absolute inset-0">
+          <Image
+            src="/images/hero-road.png"
+            alt="Road surfacing plant"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
+      
 
       <div className="absolute inset-0 bg-[#03152E]/55"></div>
 

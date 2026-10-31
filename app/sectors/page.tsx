@@ -45,14 +45,16 @@ export default function SectorsPage() {
 
       <section className="relative h-[500px]">
 
-        <Image
-          src="/images/sectors-hero.jpg"
-          alt="Sectors"
-          fill
-          sizes="100vw"
-          priority
-          className="object-cover"
-        />
+        <div className="relative">
+          <Image
+            src="/images/sectors-hero.jpg"
+            alt="Sectors"
+            fill
+            sizes="100vw"
+            priority
+            className="object-cover"
+          />
+        </div>
 
         <div className="absolute inset-0 bg-[#071B39]/80" />
 

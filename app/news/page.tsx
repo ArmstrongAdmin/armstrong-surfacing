@@ -22,14 +22,16 @@ export default function NewsPage() {
       {/* Hero */}
 
       <section className="relative h-[500px]">
-        <Image
-          src="/images/news-hero.jpg"
-          alt="Armstrong Surfacing News"
-          fill
-          sizes="100vw"
-          priority
-          className="object-cover"
-        />
+        <div className="relative">
+          <Image
+            src="/images/news-hero.jpg"
+            alt="Armstrong Surfacing News"
+            fill
+            sizes="100vw"
+            priority
+            className="object-cover"
+          />
+        </div>
 
         <div className="absolute inset-0 bg-[#071B39]/80" />
 
@@ -77,13 +79,15 @@ export default function NewsPage() {
               >
                 <div className="relative h-72">
 
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover"
-                  />
+                  <div className="relative">
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                 </div>
 

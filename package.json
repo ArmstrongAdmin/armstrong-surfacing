@@ -15,7 +15,7 @@
     "cli-color": "^2.0.4",
     "lucide-react": "^1.59.0",
     "next": "16.4.2",
-    "payload": "^3.91.0",
+    "payload": "^3.92.0",
     "pg": "^8.23.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
@@ -23,6 +23,7 @@
     "resend": "^6.34.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

@@ -68,7 +68,8 @@ export default function ProjectsPage() {
 
       <section className="relative h-[500px]">
 
-        <Image
+        <div className="relative">
+          <Image
           src="/images/projects-hero.jpg"
           alt="Armstrong Surfacing Projects"
           fill
@@ -76,6 +77,7 @@ export default function ProjectsPage() {
           priority
           className="object-cover"
         />
+        </div>
 
         <div className="absolute inset-0 bg-[#071B39]/75" />
 
