@@ -3,17 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "^3.92.0",
+    "@payloadcms/next": "^3.92.0",
     "@payloadcms/richtext-lexical": "^3.92.0",
+    "cli-color": "^2.0.4",
     "lucide-react": "^1.59.0",
     "next": "16.4.2",
     "payload": "^3.91.0",
+    "pg": "^8.23.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-icons": "^5.7.0",
